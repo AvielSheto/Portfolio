@@ -23,9 +23,6 @@ import threejs from "./tech/threejs.svg";
 import techcareer from "./company/techcareer.png";
 import willing from "./company/willing.png";
 
-// import carrent from "./carrent.png";
-// import jobit from "./jobit.png";
-// import tripguide from "./tripguide.png";
 import chatgpt from "./chatgpt.png";
 import netflix from "./netflix.png";
 import apple from "./apple.png";
