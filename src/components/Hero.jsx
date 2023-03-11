@@ -16,7 +16,7 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className='text-[#5e8eff]'>Aviel</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a Full stack developer based in Israel.
+           A Full stack developer From Israel.
           </p>
         </div>
       </div>

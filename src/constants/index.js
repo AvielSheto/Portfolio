@@ -14,14 +14,12 @@ import {
     mongodb,
     git,
     figma,
-    starbucks,
-    tesla,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
-    shopify,
-    // Tech_Career,
+    techcareer,
+    willing,
+    chatgpt,
+    netflix,
+    apple,
   } from "../assets";
   
   export const navLinks = [
@@ -53,7 +51,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Full Stack Developer",
       icon: creator,
     },
   ];
@@ -113,17 +111,17 @@ import {
     {
       title: "Full-stack software developer Bootcamp,",
       company_name: "Tech-career",
-      icon: starbucks,
-      iconBg: "#383E56",
+      icon: techcareer,
+      iconBg: "#E6DEDD",
       date: "March 2022 - Jan 2023",
       points: [
         "10 months of professional Bootcamp in software engineering and web development expertise.",
       ],
     },
     {
-      title: "Internship as Full-stack developer",
+      title: "Internship in Full Stack Development",
       company_name: "Willing App",
-      icon: tesla,
+      icon: willing,
       iconBg: "#E6DEDD",
       date: "Jan 2023 - Present",
       points: [
@@ -135,97 +133,78 @@ import {
     
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
-  ];
-  
   const projects = [
     {
-      name: "Car Rent",
+      name: "ChatGpt",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "ChatGPT application with the use of OpenAI API to create a chatbot, and the option to choose different OpenAI models.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "Typescript",
+          color: "dark-blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
+          name: "Next.jS 13",
           color: "pink-text-gradient",
         },
+        {
+          name: "React.JS",
+          color: "blue-text-gradient",
+        },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: chatgpt,
+      source_code_link: "https://github.com/AvielSheto/ChatGPT-Clone",
     },
     {
-      name: "Job IT",
+      name: "Netfilx",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Streaming service management Full stack web application using MERN stack",
       tags: [
         {
-          name: "react",
+          name: "React.JS",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "MongoDB ",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Redux-toolkit",
           color: "pink-text-gradient",
         },
+        {
+          name: "JWT",
+          color: "dark-blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "blue-text-gradient",
+        },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: netflix,
+      source_code_link: "https://github.com/AvielSheto/Streaming-service-management-MERN",
     },
     {
-      name: "Trip Guide",
+      name: "Apple Store",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "React app using redux, routing, Firebase, style and mobile responsiveness with Bootstraps and MUI.",
       tags: [
         {
-          name: "nextjs",
+          name: "React.JS",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Firebase",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "MUI",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: apple,
+      source_code_link: "https://github.com/AvielSheto/Apple-Store-Clone",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences,  projects };

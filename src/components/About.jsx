@@ -47,10 +47,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        Independent self-taught developer with a proven track record of creating useful applications, such as Psycho-Trainer. Former team leader with strong interpersonal and problem-solving abilities. Possess strong passion for developing ideas from scratch while being organized, productive, and motivated by challenges.
+        A detail-oriented and independent learner with a high degree of technical comprehension and experience.
+        A team-player that is able to collaborate with colleagues while meeting project deadlines and communicating project progress.
+        A determined, persistent, hardworking programmer and proven self-starter.
+
       </motion.p>
 
-      <div className='mt-20 flex flex-wrap gap-10'>
+      <div className='mt-20 flex flex-wrap gap-10 justify-center items-center'>
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
