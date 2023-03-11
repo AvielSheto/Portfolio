@@ -4,8 +4,8 @@ import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Stars
 function App() {
   return (
     <BrowserRouter>
-      <div className="relative z-0 bg-primary">
-        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+      <div className='relative z-0 bg-primary'>
+        <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center'>
           <Navbar />
           <Hero />
         </div>
@@ -13,10 +13,10 @@ function App() {
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
-        <div className="z-0">
-          <StarsCanvas />
+        {/* <Feedbacks /> */}
+        <div className='relative z-0'>
           <Contact />
+          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>
