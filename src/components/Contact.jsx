@@ -124,6 +124,9 @@ const Contact = () => {
         variants={slideIn("right", "tween", 0.2, 1)}
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
+       <div className='absolute xs:top-0 w-full flex justify-center items-center'>
+        <img className='' style={{ width: "65px" }} src="https://icon-library.com/images/360-degree-icon/360-degree-icon-14.jpg" alt="" />
+      </div> 
         <EarthCanvas />
       </motion.div>
     </div>

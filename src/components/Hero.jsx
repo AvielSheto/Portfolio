@@ -16,11 +16,16 @@ const Hero = () => {
         <div>
           <h1 className={`${styles.heroHeadText}`}>Hi, I'm <span className='text-[#60a5fa]'>Aviel Sheto</span></h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-           A Full Stack Developer From Israel.
+            A Full Stack Developer From Israel.
           </p>
         </div>
+        
       </div>
-      
+
+      <div className='absolute xs:top-4 bottom-32 w-full flex justify-center items-center'>
+        <img className='' style={{ width: "65px" }} src="https://icon-library.com/images/360-degree-icon/360-degree-icon-14.jpg" alt="" />
+      </div>
+
       <ComputersCanvas />
 
       <div className='absolute xs:bottom-3 bottom-32 w-full flex justify-center items-center'>
